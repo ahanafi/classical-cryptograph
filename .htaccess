@@ -1,0 +1,12 @@
+Options Indexes FollowSymLinks
+
+ErrorDocument 404 /classical-crypto/404.php
+
+RewriteEngine On
+RewriteRule ^dashboard$ index.php
+RewriteRule ^author$ author.php [L]
+
+RewriteRule ^method/caesar-cipher-random index.php?page=method&action=caesar-cipher-random [L]
+RewriteRule ^method/caesar-cipher-one-key index.php?page=method&action=caesar-cipher-one-key [L]
+RewriteRule ^method/vigeneere-cipher index.php?page=method&action=vigeneere-cipher [L]
+RewriteRule ^method/playfair-cipher index.php?page=method&action=playfair-cipher [L]
