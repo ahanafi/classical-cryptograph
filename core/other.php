@@ -7,7 +7,7 @@ function escape($str)
 }
 
 function base_url($file = NULL) {
-	$path = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . "/classical-crypto/";
+	$path = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . "/classical-cryptograph/";
 	$path .= $file;
 	return $path;
 }
